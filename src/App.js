@@ -47,7 +47,7 @@ function App() {
 
   return (
     <div className="App">
-      <h2>Cascading Dropdown</h2> <hr style={{ width: '50%', border: '2px solid green', marginBottom: '20px' }} />
+      <h2>Cascading Dropdown</h2> <hr style={{ width: '60%', border: '2px solid green', marginBottom: '20px' }} />
       <select id="ddlCountry" className='form-control select-class' onChange={(e) => handleCountry(e.target.value)}>
         <option value="0">Select Country</option>
         {
